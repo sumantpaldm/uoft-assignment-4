@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+button{
+  background-color:blueviolet;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 30px;
+  color:blueviolet;
+}
+
+.view-score:hover{
+  cursor: pointer;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#welcome-screen, #start-timer{
+  text-align: center;
+}
+
